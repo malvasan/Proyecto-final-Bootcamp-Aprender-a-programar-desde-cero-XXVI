@@ -1,0 +1,149 @@
+body{
+    padding: 2rem;
+    background-color: var(--color-background);
+    font-family: var(--font-primary);
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-dark);
+    z-index: 99;
+}
+
+.navbar-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-item a{
+    color: var(--color-background);
+    text-decoration: none;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+}
+
+.navbar-item a:hover{
+    background-color: var(--color-primary);
+    color: #29251F;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--color-secondary);
+    text-align: center;
+}
+
+.header p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-secondary);
+}
+
+#movie-poster {
+    position: absolute;
+    right: 2rem;
+    top: 6.5rem;
+    width: 30%;
+    height: 40%;
+}
+
+.movie-info h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--color-secondary);
+    text-decoration: underline;
+}
+
+.movie-info dl dt{
+    color: var(--color-secondary);
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.movie-info dl dd{
+    color: var(--color-dark);
+    font-size: 1.5rem;
+}
+
+.table thead th {
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.table tbody td {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-size: 1rem;
+}
+
+.movie-rating h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--color-secondary);
+}
+
+.rating-header {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.star {
+  font-size: 10vh;
+  cursor: pointer;
+}
+.one {
+  color: rgb(255, 0, 0);
+}
+.two {
+  color: rgb(255, 106, 0);
+}
+.three {
+  color: rgb(251, 255, 120);
+}
+.four {
+  color: rgb(255, 255, 0);
+}
+.five {
+  color: rgb(24, 159, 14);
+}
+
+#add-rating-btn {
+    background-color: var(--color-dark);
+    color: var(--color-background);
+    border: 1px solid var(--color-dark);
+    font-weight: 500;
+    border-radius: 6px;
+    font-size: 1.5rem;
+}
+
+#add-rating-btn:hover {
+    background-color: var(--color-primary);
+    color: #29251F;
+    border-color: var(--color-primary);
+}
+
+#add-comment-btn {
+    background-color: var(--color-dark);
+    color: var(--color-background);
+    border: 1px solid var(--color-dark);
+    font-weight: 500;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    display: block;
+    margin: 0 auto;
+    height: 4rem;
+}
+
+#add-comment-btn:hover {
+    background-color: var(--color-primary);
+    color: #29251F;
+    border-color: var(--color-primary);
+}

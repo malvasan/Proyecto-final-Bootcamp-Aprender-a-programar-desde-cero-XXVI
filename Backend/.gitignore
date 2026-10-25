@@ -1,0 +1,21 @@
+# Entorno virtual
+entorno/
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Variables de entorno / secretos
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

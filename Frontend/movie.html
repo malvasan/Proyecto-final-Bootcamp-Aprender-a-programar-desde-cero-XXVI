@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/movie_detail.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item">
+                <a href="index.html">Movie search</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="header">
+        <h1 id="movie-title">Default Title</h1>
+        <p id="movie-year">Año</p>
+    </header>
+    <section class="movie-main">
+        <figure>
+            <img id="movie-poster" src="" alt="" >
+        </figure>
+
+        <section class="movie-info">
+            <h2>Information</h2>
+
+            <dl>
+                <dt>Direction</dt>
+                <dd id="movie-director"></dd>
+
+                <dt>Genre</dt>
+                <dd id="movie-genre"></dd>
+
+                <dt>Runtime</dt>
+                <dd id="movie-runtime"></dd>
+
+                <dt>IMDbid</dt>
+                <dd id="movie-imdb"></dd>
+
+                <dt>Languange</dt>
+                <dd id="movie-language"></dd>
+
+                <dt>Actors</dt>
+                <dd id="movie-actors"></dd>
+
+                <dt>Plot</dt>
+                <dd id="movie-plot"></dd>
+            </dl>
+        </section>
+        <section>
+            <table class="table table-hover" id="movieTable">
+                <thead>
+                    <tr>
+                        <th>Comentarios</th>
+                    </tr>
+                </thead>
+                <tbody id="movie-comments">
+                    <!--Los datos se insertaran aquí con javasript-->
+                </tbody>
+        </table>
+        </section>
+        <section>
+            <div class="movie-rating">
+                <div class="rating-header">
+                    <h2>Calificación</h2>
+                    <button id="add-rating-btn" type="button">
+                        Agregar calificación
+                    </button>
+                </div>
+                <br />
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+            </div>
+        </section>
+        <button id="add-comment-btn" type="button">
+            Agregar comentario
+        </button>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/movie.js"></script>
+
+</body>
+</html>

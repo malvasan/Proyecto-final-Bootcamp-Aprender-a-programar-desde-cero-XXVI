@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Comment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/comment.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item">
+                <a href="index.html">Movie search</a>
+                <a href="movie.html" id="movie-link">Return to Movie</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>New Comment</h1>
+    </header>
+    <section>
+        <form id="comment-form">
+            <div class="mb-3">
+                <label for="comment-name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="comment-name" required>
+            </div>
+            <div class="mb-3">
+                <label for="comment-text" class="form-label">Comment</label>
+                <textarea type="text" class="form-control" id="comment-text" rows="3" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/comment.js"></script>
+</body>
+</html>

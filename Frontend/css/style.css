@@ -1,0 +1,61 @@
+body {
+  padding: 2rem;
+  background-color: var(--color-background);
+  font-family: var(--font-primary);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.movie-form {
+  padding-bottom: 1.5rem;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--color-secondary);
+}
+.movie-form label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+.movie-form input {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+.movie-form button {
+  font-size: 1.5rem;
+}
+
+.table thead th {
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.table tbody td {
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.poster {
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
